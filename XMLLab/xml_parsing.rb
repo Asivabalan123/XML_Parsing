@@ -26,6 +26,3 @@ class GuiseppesMenu
     array
   end
 end
-
-p = GuiseppesMenu.new
-puts p.calories_less_100

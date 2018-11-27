@@ -14,7 +14,6 @@ end
 
   it "should have no item with calories over 1000 except for the full breakfast" do
     @xml_menu.calories_less_100.each do |calories|
-      expect(calories).to be_kind_of Integer
       expect(calories).to be < 1000
   end
 end
