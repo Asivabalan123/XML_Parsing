@@ -15,8 +15,8 @@ class GuiseppesMenu
 
   def calories_less_100
     array = []
-    array_1 = @menu.search('calories').to_a
-    array_1.each do |calories|
+    array1 = @menu.search('calories').to_a
+    array1.each do |calories|
       if calories.text.to_i < 1000
         array << calories.text.to_i
       else
