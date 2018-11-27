@@ -21,9 +21,10 @@ class GuiseppesMenu
         array << calories.text.to_i
       else
         array
+      end
     end
+    array
   end
-  array
 end
 
 p = GuiseppesMenu.new
